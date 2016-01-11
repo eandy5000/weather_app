@@ -2,4 +2,4 @@ Weather App
 ========
 Weather Forcasting App
 -------
-This project is from [udemy's](www.udemy.com) course "learn and understand angular"
+This project is from [udemy's](https://www.udemy.com/learn-angularjs) course "learn and understand angular"
