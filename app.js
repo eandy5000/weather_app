@@ -63,3 +63,14 @@ weatherApp.controller('ForecastController', ['$scope', '$resource', '$routeParam
 
 
 }]);
+
+//Directives
+
+weatherApp.directive('weatherReport', function(){
+   return {
+       restrict: "E",
+       templateUrl: "directives/weatherreport.html",
+       replace: true
+
+   }
+});

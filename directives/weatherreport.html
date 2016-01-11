@@ -1,0 +1,4 @@
+<div class="well">
+    <h2>Forecast for: {{ convertToDate(w.dt) | date: 'EEE, MMM y' }}</h2>
+    <h3>Daytime temperature: {{ convertToFahrenheit(w.temp.day) }}</h3>
+</div>
